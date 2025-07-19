@@ -111,5 +111,7 @@ int main(int argc, char* argv[]) {
 	cudaFree(h_a);
 	cudaFree(h_b);
 	cudaFree(h_c);
+	cudaFree(h_d);
+	cudaFree(h_e);
 	return 0;
 }
